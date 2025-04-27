@@ -1,0 +1,40 @@
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+}
+
+.loadingText {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 20px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sectionTitle {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}

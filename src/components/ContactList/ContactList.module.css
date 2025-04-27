@@ -1,0 +1,38 @@
+.contactsList {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  margin-bottom: 16px;
+  padding: 12px;
+  min-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.secondaryText {
+  font-size: 16px;
+  color: #4facfe;
+  font-weight: 500;
+  margin-top: 4px;
+}

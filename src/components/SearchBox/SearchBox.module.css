@@ -1,0 +1,30 @@
+.searchText {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.findField {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 16px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.findField::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.findField:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: #4facfe;
+  outline: none;
+  box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+}
